@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+/*
+	Final Project 
+		FAQ Style Sheet
+	IS139 450
+    Rachel Allen
+    December 2022
+	
+	fp_style4.css
+	
+*/
+
+/* =============================================
+	Base styles used by All Screens
+   =============================================
+*/
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Zen+Dots&display=swap'); 
+
+
+/* HTML Styles */
+html {
+	background: black url("flashlight.jpg") repeat-x fixed; 
+	font-size: 1em; font-family: 'Zen Dots', Sans-serif, Fantasy;
+	} 
+
+/* Page Body Styles */
+body {
+	background: seagreen;
+	color: white;
+	margin: 0px auto;
+	border-left: 1px solid black; border-right: 1px solid black;
+	width: 75%; text-align: center;
+   }
+
+h2, p {
+	font-family: 'Manrope', sans-serif;
+	}
+
+/* Body Header Styles */
+
+body > header {
+	background: white;
+	}
+
+img#logo {
+	display: block;
+	width: 100%;
+	}
+
+/* Body styles */
+h1 {
+	margin-bottom: 10px;
+	}
+
+p.bodytext {
+	text-align: justify; margin: 10px;
+	}
+	
+ul.faq {
+	list-style-type: none; margin-bottom: 15px;
+	} 
+
+ol {
+	margin-left: 30px; padding-left: 30px; margin: 10px; 
+	text-align: justify; font-family: 'Manrope', sans-serif;
+	}
+
+a.faq {
+	color: black; font-weight: bold; 
+	font-family: 'Manrope', sans-serif; font-size: 0.95em; 
+	margin: 10px; line-height: 1.1em;
+	}
+
+/* Footer */
+body > footer {
+	background: white; color: black;
+	}
+	
+footer p {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	}
+
+
+/* ============================================
+	Tablet and Desktop Devices: 481px or more 
+   ============================================
+*/
+@media only screen and (min-width: 481px) {
+/* Body Header Styles */
+body > header {
+	display: block; width: 100%;
+	}
+	
+header > nav {
+	display: block; width: 100%;
+	}
+
+nav#topLinks ul li {
+	background-color: white;	
+	display: block;
+	float: left;
+	text-align: center;
+	width: 25%; overflow: hidden;
+	}
+
+nav#topLinks ul li a {
+	color: black;	
+	display: block;
+	height: 2.5em;	
+	text-align: center;
+	line-height: 2.5em;
+	}
+	
+nav#topLinks a:hover, nav#topLinks a:active {
+	color: white; background: seagreen;
+	}
+	
+/* Body Styles */
+
+h1 {
+	font-size: 2em; line-height: 2.5em;
+	}
+
+p.bodytext {
+	font-size: 1.2em; line-height: 1.4em;
+	}
+
+ol {
+	font-size: 1em; line-height: 1.2em;
+	}
+
+a.faq {
+	line-height: 2em;
+	}
+
+h2 {
+	line-height: 1.4em;
+	}
+
+/* Footer */
+body > footer {
+	display: block; width: 100%;
+	}
+
+nav#bottomLinks ul li {
+   background: white;
+   display: block;
+   float: left;
+   text-align: center;
+   width: 33.3333333%;
+   }
+
+nav#bottomLinks ul a {
+	color: black;
+	display: block;
+	height: 2em;
+	text-align: center;
+	line-height: 2em;
+	}
+
+nav#bottomLinks a:hover, nav#bottomLinks a:active {
+	color: white; background: seagreen;
+	}
+
+footer p {
+	width: 100%;
+	font-size: 0.9em;
+	margin: 0px;
+	padding: 10px;
+	background: seagreen;
+	color: white;
+	}
+	
+}
+
+/* ===============================
+	Mobile Styles up to 480 pixels
+   ===============================
+*/
+@media only screen and (max-width: 480px) {
+
+/* Header Links */
+li#report, li#faq, li#contact, nav#bottomLinks {
+	display: none;
+}
+
+li#home {
+	width: 100%;
+}
+
+nav#topLinks a:hover, nav#topLinks a:active {
+	color: white; background: seagreen;
+	}
+
+/* Footer */
+footer p {
+	background: white; color: seagreen;
+}
+
+}
