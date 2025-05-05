@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/*
+	Final Project 
+		Base Style Sheet
+	IS139 450
+    Rachel Allen
+    December 2022
+	
+	base_styles.css
+	
+	
+*/
+
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Zen+Dots&display=swap'); 
+
+
+/* HTML Styles */
+html {background: black url("flashlight.jpg") repeat-x fixed; 
+	font-size: 1em; font-family: 'Zen Dots', Sans-serif, Fantasy;} 
+
+
+/* Page Body Styles */
+body {background: seagreen;
+	color: white;
+   margin: 0px auto;
+   border-left: 1px solid black; border-right: 1px solid black;
+   width: 75%; text-align: center;}
+
+h2, p {font-family: 'Manrope', sans-serif;}
+
+
+/* Body Header Styles */
+
+body > header {
+	background: white; display: block; width: 100%;
+	}
+header > nav {display: block; width: 100%;}
+
+img#logo {
+	display: block;
+	width: 100%;
+	}
+
+nav#topLinks ul li {
+	background-color: white;	
+	display: block;
+	float: left;
+	text-align: center;
+	width: 25%; overflow: hidden;
+	}
+
+nav#topLinks ul li a {
+	color: black;	
+	display: block;
+	height: 2.5em;	
+	text-align: center;
+	line-height: 2.5em;
+	}
+	
+nav#topLinks a:hover, nav#topLinks a:active {
+	color: white; background: seagreen;
+	}
+
+
+/* Footer */
+body > footer {
+	width: 100%; display: block; background: white; color: black;
+	}
+
+nav#bottomLinks ul li {
+   background: white;
+   display: block;
+   float: left;
+   text-align: center;
+   width: 33.3333333%;}
+
+nav#bottomLinks ul a {
+color: black;
+display: block;
+height: 2em;
+text-align: center;
+line-height: 2em;}
+
+nav#bottomLinks a:hover, nav#bottomLinks a:active {
+color: white; background: seagreen;}
+
+
+footer p {
+   background: seagreen;
+   font-size: 0.9em;
+   text-align: center;
+   color: white;
+   margin: 0px;
+   padding: 10px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+

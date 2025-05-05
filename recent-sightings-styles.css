@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*
+	Final Project 
+		Recent Sightings Table Style Sheet
+	IS139 450
+    Rachel Allen
+    December 2022
+	
+	recent-sightings-styles.css
+	
+	
+*/
+
+/* Import Basic Design Styles  */
+@import url("base_styles.css");
+
+div#tableCont {
+	height: 500px; width: 800px; overflow: auto; 
+	margin-left: auto; margin-right: auto;
+	}
+
+table {
+	font-family: 'Manrope', sans-serif;
+	border-collapse: collapse;
+	height: 100%; width: 100%;
+	}
+th {
+	background: rgb(121, 181, 148);
+	}
+
+td, th {
+	border: 1px solid white;
+	text-align: left;
+	padding: 8px;
+	}
+
+tr:nth-child(even) {
+	background-color: rgb(121, 181, 148);
+	}

@@ -25,7 +25,7 @@ Below is a breakdown of each page:
 
 ### Home (`FinalProject.html`)
 - **Functionality**: Serves as the landing page with an introduction to the society, a short blurb about the Mudder, and a featured map.
-- **Styling**: Styled through `fp_style.css` with responsive elements for various devices.
+- **Styling**: Styled through `home_styles.css` with responsive elements for various devices.
   ![Home Page](./assets/mudder_homepage.png)
 
 ### Sighting Reporter (`SightingReporter.html`)
@@ -35,18 +35,18 @@ Below is a breakdown of each page:
   - An encounter description.
   - Optional contact information for follow-ups.
 - **Validation**: Input fields require validation (e.g., proper date formats, pattern matching for zip codes and phone numbers).
-- **Styling**: Design driven by `fp_style2.css`.
+- **Styling**: Design driven by `sighting_styles.css`.
   ![Sighting Reporter](./assets/mudder_sightings.png)
 
 ### FAQ (`MoreInfo.html`)
 - **Content**: Answers common questions in a user-friendly format, with anchor links for quick navigation.
-- **Styling**: Structured using `fp_style4.css` to ensure clear readability.
+- **Styling**: Structured using `faq_styles.css` to ensure clear readability.
   ![FAQ](./assets/mudder_info.png)
 
 ### Recent Sightings (`RecentSightings.html`)
 - **Content**: Displays a table of previous sightings, detailing:
   - Date, time, location, and a description of sightings.
-- **Styling**: Fully responsive layout designed through `fp_style6.css`.
+- **Styling**: Fully responsive layout designed through `recent_sightings_styles.css`.
   ![Recent Sightings](./assets/mudder_recentsightings.png)
 
 ### Gallery (`Gallery.html`)
@@ -54,18 +54,18 @@ Below is a breakdown of each page:
 - **CSS Effects**:
   - **Hover Effects**: Images expand on hover.
   - **Filters**: Custom image filters for a dramatic aesthetic.
-- **Styling**: Managed by `fp_style3.css`, with shared base styles imported from `BaseStyle.css`.
+- **Styling**: Managed by `gallery_styles.css`, with shared base styles imported from `base_styles.css`.
   ![Gallery](./assets/mudder_gallery.png)
 
 ### Contact Us (`ContactUs.html`)
 - **Features**:
   - Provides email, phone contact options, and a live countdown (via JavaScript) to the next Mudder Con.
-- **Styling**: Guided by `fp_style5.css`.
+- **Styling**: Guided by `contact_styles.css`.
   ![Contact Us](./assets/mudder_contactus.png)
 
 ## Shared Stylesheets
-1. **`fp_reset.css`**: Resets browser default styles for consistency.
-2. **`BaseStyle.css`**: Contains shared foundational styles across all pages (e.g., header, footer).
+1. **`reset_styles.css`**: Resets browser default styles for consistency.
+2. **`base_styles.css`**: Contains shared foundational styles across all pages (e.g., header, footer).
 
 ## Responsive Design
 The website is fully responsive, catering to:
