@@ -22,7 +22,7 @@
 
 /* HTML Styles */
 html {
-	background: black url("flashlight.jpg") repeat-x fixed; 
+	background: black url("../../assets/flashlight.jpg") repeat-x fixed;
 	font-size: 1em; font-family: 'Zen Dots', Sans-serif, Fantasy;
 	} 
 
@@ -216,11 +216,11 @@ li#contact {
 	}
 	
 li#report {
-	background: url(binoculars.jpg) center/contain no-repeat;
+	background: url(../../assets/binoculars.jpg) center/contain no-repeat;
 	}
     
 li#faq {
-	background: url(faq.jpg) center/contain no-repeat;
+	background: url(../../assets/faq.jpg) center/contain no-repeat;
 	}
 
 /* Body & Footer Elements */
